@@ -1,4 +1,4 @@
-package com.f1client;
+package com.f1client.model;
 
 import com.google.gson.annotations.SerializedName;
 
