@@ -3,8 +3,10 @@ package com.f1client.analytics;
 import com.f1client.model.Driver;
 import com.f1client.model.Lap;
 import com.f1client.model.Pitstop;
+import com.f1client.model.Stint;
 import com.f1client.service.DriverService;
 import com.f1client.service.PitstopService;
+import com.f1client.service.StintService;
 import com.f1client.service.SessionService;
 import com.f1client.service.LapService;
 import com.f1client.util.SessionUtils;
@@ -17,12 +19,14 @@ public class SessionAnalytics {
     private final PitstopService pitstopService;
     private final SessionService sessionService;
     private final LapService lapService;
+    private final StintService stintService;
 
-    public SessionAnalytics(DriverService driverService, PitstopService pitstopService, SessionService sessionService, LapService lapService) {
+    public SessionAnalytics(DriverService driverService, PitstopService pitstopService, SessionService sessionService, LapService lapService, StintService stintService) {
         this.driverService = driverService;
         this.pitstopService = pitstopService;
         this.sessionService = sessionService;
         this.lapService = lapService;
+        this.stintService = stintService;
     }
     
 
@@ -72,7 +76,17 @@ public class SessionAnalytics {
         }
         return result;
     }
+    public void printDriverStints(int driverNumber) {
+        List<Stint> driverStints = stintService.getStintsForDriver(driverNumber);
 
+        System.out.println("Stints for car " + driverNumber + ":");
+        for (Stint stint : driverStints) {
+            System.out.println("Stint " + stint.getStintNumber() +
+                    ": laps " + stint.getLapStart() + "-" + stint.getLapEnd() +
+                    ", compound = " + stint.getCompound() +
+                    ", tyre age at start of stint = " + stint.getTyreAgeAtStart());
+        }
+    }
     public static void main(String[] args) {
     try {
         DriverService driverService = new DriverService();
@@ -81,8 +95,9 @@ public class SessionAnalytics {
 
         int sessionKey = 9896; //Singapore GP Race 2025
         LapService lapService = new LapService(sessionKey);
+        StintService stintService = new StintService(sessionKey);
 
-        SessionAnalytics analytics = new SessionAnalytics(driverService, pitstopService, sessionService, lapService);
+        SessionAnalytics analytics = new SessionAnalytics(driverService, pitstopService, sessionService, lapService, stintService);
         //analytics.SimpleAnalytics();
         Map<Integer, Double> avgLapTimes = analytics.averageLapTimePerDriver(sessionKey);
             avgLapTimes.forEach((driver, avgTime) -> 
@@ -92,6 +107,7 @@ public class SessionAnalytics {
             avgPitTimes.forEach((driver, avgTime) -> 
                 System.out.println("Average pit time for car " + driver + " -> " + avgTime + " seconds")
             );
+        analytics.printDriverStints(81); // Example for driver number 81
     } catch (Exception e) {
         e.printStackTrace();
     }
