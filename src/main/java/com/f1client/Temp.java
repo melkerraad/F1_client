@@ -10,7 +10,7 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-public class Test {
+public class Temp {
     public static void main(String[] args) {
         String url = "https://api.openf1.org/v1/drivers";
 
@@ -31,7 +31,7 @@ public class Test {
             // Print the first few drivers as a test
             for (int i = 0; i < Math.min(5, drivers.size()); i++) {
                 Driver d = drivers.get(i);
-                System.out.println(d.getFull_name() + " (" + d.getTeam_name() + ")");
+                System.out.println(d.getFullName() + " (" + d.getTeamName() + ")");
             }
 
         } catch (IOException | InterruptedException e) {

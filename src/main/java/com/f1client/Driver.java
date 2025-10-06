@@ -1,101 +1,61 @@
 package com.f1client;
 
+import com.google.gson.annotations.SerializedName;
 
 public class Driver {
 
-    // The driver's name, as displayed on TV.
+    @SerializedName("broadcast_name")
     private String broadcastName;
 
-    // A code that uniquely identifies the country.
+    @SerializedName("country_code")
     private String countryCode;
 
-    // The unique number assigned to an F1 driver.
+    @SerializedName("driver_number")
     private int driverNumber;
 
-    // The driver's first name.
+    @SerializedName("first_name")
     private String firstName;
 
-    // The driver's full name.
+    @SerializedName("full_name")
     private String fullName;
 
-    // URL of the driver's face photo.
+    @SerializedName("headshot_url")
     private String headshotUrl;
 
-    // The driver's last name.
+    @SerializedName("last_name")
     private String lastName;
 
-    // The unique identifier for the meeting.
+    @SerializedName("meeting_key")
     private int meetingKey;
 
-    // Three-letter acronym of the driver's name.
+    @SerializedName("name_acronym")
     private String nameAcronym;
 
-    // The unique identifier for the session.
+    @SerializedName("session_key")
     private int sessionKey;
 
-    // The hexadecimal color value (RRGGBB) of the driver's team.
+    @SerializedName("team_colour")
     private String teamColour;
 
-    // Name of the driver's team.
+    @SerializedName("team_name")
     private String teamName;
 
     // Default constructor
     public Driver() {}
 
-    // Parameterized constructor (optional)
-    public Driver(String broadcastName, String countryCode, int driverNumber, String firstName, String fullName,
-                  String headshotUrl, String lastName, int meetingKey, String nameAcronym, int sessionKey,
-                  String teamColour, String teamName) {
-        this.broadcastName = broadcastName;
-        this.countryCode = countryCode;
-        this.driverNumber = driverNumber;
-        this.firstName = firstName;
-        this.fullName = fullName;
-        this.headshotUrl = headshotUrl;
-        this.lastName = lastName;
-        this.meetingKey = meetingKey;
-        this.nameAcronym = nameAcronym;
-        this.sessionKey = sessionKey;
-        this.teamColour = teamColour;
-        this.teamName = teamName;
-    }
-
-    // Getters and Setters
-    public String getBroadcast_name() { return broadcastName; }
-    public void setBroadcast_name(String broadcastName) { this.broadcastName = broadcastName; }
-
-    public String getCountry_code() { return countryCode; }
-    public void setCountry_code(String countryCode) { this.countryCode = countryCode; }
-
-    public int getDriver_number() { return driverNumber; }
-    public void setDriver_number(int driverNumber) { this.driverNumber = driverNumber; }
-
-    public String getFirst_name() { return firstName; }
-    public void setFirst_name(String firstName) { this.firstName = firstName; }
-
-    public String getFull_name() { return fullName; }
-    public void setFull_name(String fullName) { this.fullName = fullName; }
-
-    public String getHeadshot_url() { return headshotUrl; }
-    public void setHeadshot_url(String headshotUrl) { this.headshotUrl = headshotUrl; }
-
-    public String getLast_name() { return lastName; }
-    public void setLast_name(String lastName) { this.lastName = lastName; }
-
-    public int getMeeting_key() { return meetingKey; }
-    public void setMeeting_key(int meetingKey) { this.meetingKey = meetingKey; }
-
-    public String getName_acronym() { return nameAcronym; }
-    public void setName_acronym(String nameAcronym) { this.nameAcronym = nameAcronym; }
-
-    public int getSession_key() { return sessionKey; }
-    public void setSession_key(int sessionKey) { this.sessionKey = sessionKey; }
-
-    public String getTeam_colour() { return teamColour; }
-    public void setTeam_colour(String teamColour) { this.teamColour = teamColour; }
-
-    public String getTeam_name() { return teamName; }
-    public void setTeam_name(String teamName) { this.teamName = teamName; }
+    // Getters
+    public String getBroadcastName() { return broadcastName; }
+    public String getCountryCode() { return countryCode; }
+    public int getDriverNumber() { return driverNumber; }
+    public String getFirstName() { return firstName; }
+    public String getFullName() { return fullName; }
+    public String getHeadshotUrl() { return headshotUrl; }
+    public String getLastName() { return lastName; }
+    public int getMeetingKey() { return meetingKey; }
+    public String getNameAcronym() { return nameAcronym; }
+    public int getSessionKey() { return sessionKey; }
+    public String getTeamColour() { return teamColour; }
+    public String getTeamName() { return teamName; }
 
     @Override
     public String toString() {
