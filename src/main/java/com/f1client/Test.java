@@ -1,4 +1,5 @@
-package src.main.java;
+package com.f1client;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
