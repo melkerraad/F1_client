@@ -57,4 +57,15 @@ public class DriverService {
                 .filter(d -> d.getFullName().equalsIgnoreCase(driverName))
                 .findFirst();
     }
+
+    public java.util.Optional<Driver> getDriverByNumber(int driverNumber) {
+        return drivers.stream()
+                .filter(d -> d.getDriverNumber() == driverNumber)
+                .findFirst();
+    }
+    public List<Driver> getDriversBySession(int sessionKey) {
+        return drivers.stream()
+                .filter(d -> d.getSessionKey() == sessionKey)
+                .collect(Collectors.toList());
+    }
 }
