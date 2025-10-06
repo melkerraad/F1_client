@@ -19,11 +19,14 @@ public class PitstopService {
             throw new RuntimeException("Failed to load pitstop data", e);
         }
     }
+    public List<Pitstop> getAllPitstops() {
+        return pitstops;
+    }
 
-    public List<Pitstop> getPitstopsByDriver(String driverName) {
-        return driverService.getDriverByName(driverName)
+    public List<Pitstop> getPitstopsByDriver(int driverNumber, int sessionId) {
+        return driverService.getDriverByNumber(driverNumber)
                 .map(driver -> pitstops.stream()
-                        .filter(p -> p.getDriverNumber() == driver.getDriverNumber())
+                        .filter(p -> p.getDriverNumber() == driver.getDriverNumber() && p.getSessionKey() == sessionId)
                         .collect(Collectors.toList()))
                 .orElse(List.of());
     }
