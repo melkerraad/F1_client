@@ -1,4 +1,6 @@
-package src.main.java;
+package com.f1client;
+
+
 public class Driver {
 
     // The driver's name, as displayed on TV.
@@ -59,41 +61,41 @@ public class Driver {
     }
 
     // Getters and Setters
-    public String getBroadcastName() { return broadcastName; }
-    public void setBroadcastName(String broadcastName) { this.broadcastName = broadcastName; }
+    public String getBroadcast_name() { return broadcastName; }
+    public void setBroadcast_name(String broadcastName) { this.broadcastName = broadcastName; }
 
-    public String getCountryCode() { return countryCode; }
-    public void setCountryCode(String countryCode) { this.countryCode = countryCode; }
+    public String getCountry_code() { return countryCode; }
+    public void setCountry_code(String countryCode) { this.countryCode = countryCode; }
 
-    public int getDriverNumber() { return driverNumber; }
-    public void setDriverNumber(int driverNumber) { this.driverNumber = driverNumber; }
+    public int getDriver_number() { return driverNumber; }
+    public void setDriver_number(int driverNumber) { this.driverNumber = driverNumber; }
 
-    public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getFirst_name() { return firstName; }
+    public void setFirst_name(String firstName) { this.firstName = firstName; }
 
-    public String getFullName() { return fullName; }
-    public void setFullName(String fullName) { this.fullName = fullName; }
+    public String getFull_name() { return fullName; }
+    public void setFull_name(String fullName) { this.fullName = fullName; }
 
-    public String getHeadshotUrl() { return headshotUrl; }
-    public void setHeadshotUrl(String headshotUrl) { this.headshotUrl = headshotUrl; }
+    public String getHeadshot_url() { return headshotUrl; }
+    public void setHeadshot_url(String headshotUrl) { this.headshotUrl = headshotUrl; }
 
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    public String getLast_name() { return lastName; }
+    public void setLast_name(String lastName) { this.lastName = lastName; }
 
-    public int getMeetingKey() { return meetingKey; }
-    public void setMeetingKey(int meetingKey) { this.meetingKey = meetingKey; }
+    public int getMeeting_key() { return meetingKey; }
+    public void setMeeting_key(int meetingKey) { this.meetingKey = meetingKey; }
 
-    public String getNameAcronym() { return nameAcronym; }
-    public void setNameAcronym(String nameAcronym) { this.nameAcronym = nameAcronym; }
+    public String getName_acronym() { return nameAcronym; }
+    public void setName_acronym(String nameAcronym) { this.nameAcronym = nameAcronym; }
 
-    public int getSessionKey() { return sessionKey; }
-    public void setSessionKey(int sessionKey) { this.sessionKey = sessionKey; }
+    public int getSession_key() { return sessionKey; }
+    public void setSession_key(int sessionKey) { this.sessionKey = sessionKey; }
 
-    public String getTeamColour() { return teamColour; }
-    public void setTeamColour(String teamColour) { this.teamColour = teamColour; }
+    public String getTeam_colour() { return teamColour; }
+    public void setTeam_colour(String teamColour) { this.teamColour = teamColour; }
 
-    public String getTeamName() { return teamName; }
-    public void setTeamName(String teamName) { this.teamName = teamName; }
+    public String getTeam_name() { return teamName; }
+    public void setTeam_name(String teamName) { this.teamName = teamName; }
 
     @Override
     public String toString() {
