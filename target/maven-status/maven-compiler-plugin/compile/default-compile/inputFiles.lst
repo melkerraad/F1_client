@@ -1,6 +1,11 @@
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\DataLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\DriverLoader.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\loader\SessionLoader.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\util\SessionUtils.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Driver.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\PitstopLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Pitstop.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\Temp.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\model\Session.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\service\PitstopService.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\service\DriverService.java
