@@ -1,40 +1,19 @@
 package com.f1client;
-
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.lang.reflect.Type;
 import java.util.List;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.f1client.loader.DriverLoader;
+import com.f1client.loader.PitstopLoader;
+import com.f1client.model.Driver;
+import com.f1client.model.Pitstop;
 
 public class Temp {
     public static void main(String[] args) {
-        String url = "https://api.openf1.org/v1/drivers";
-
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(url))
-                .GET()
-                .build();
-
         try {
-            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            String json = response.body();
-
-            Gson gson = new Gson();
-            Type listType = new TypeToken<List<Driver>>(){}.getType();
-            List<Driver> drivers = gson.fromJson(json, listType);
-
-            // Print the first few drivers as a test
-            for (int i = 0; i < Math.min(5, drivers.size()); i++) {
-                Driver d = drivers.get(i);
-                System.out.println(d.getFullName() + " (" + d.getTeamName() + ")");
-            }
-
-        } catch (IOException | InterruptedException e) {
+            List<Driver> drivers = new DriverLoader().loadData();
+            System.out.println(drivers);
+            System.out.println("-----");
+            List<Pitstop> pitstops = new PitstopLoader().loadData();
+            System.out.println(pitstops);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
