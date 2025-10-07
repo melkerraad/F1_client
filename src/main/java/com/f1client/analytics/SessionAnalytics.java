@@ -10,6 +10,8 @@ import com.f1client.service.LapService;
 import com.f1client.service.SessionService;
 import com.f1client.service.StintService;
 import com.f1client.service.RaceControlEventService;
+import com.f1client.service.PitstopService;
+import com.f1client.service.PositionService;
 
 import com.f1client.util.SessionUtils;
 
@@ -23,13 +25,15 @@ public class SessionAnalytics {
     private final StintService stintService;
     private final SessionService sessionService;
     private final RaceControlEventService raceControlEventService;
+    private final PitstopService pitstopService;
 
-    public SessionAnalytics(DriverService driverService, LapService lapService, StintService stintService, SessionService sessionService, RaceControlEventService raceControlEventService) {
+    public SessionAnalytics(DriverService driverService, LapService lapService, StintService stintService, SessionService sessionService, RaceControlEventService raceControlEventService, PitstopService pitstopService) {
         this.driverService = driverService;
         this.lapService = lapService;
         this.stintService = stintService;
         this.sessionService = sessionService;
         this.raceControlEventService = raceControlEventService;
+        this.pitstopService = pitstopService;
     }
 
     /**
@@ -70,8 +74,10 @@ public class SessionAnalytics {
             StintService stintService = new StintService(9896);
             SessionService sessionService = new SessionService();
             RaceControlEventService raceControlEventService = new RaceControlEventService();
+            PitstopService pitstopService = new PitstopService(driverService);
+            PositionService positionService = new PositionService(9896);
 
-            SessionAnalytics analytics = new SessionAnalytics(driverService, lapService, stintService, sessionService, raceControlEventService);
+            SessionAnalytics analytics = new SessionAnalytics(driverService, lapService, stintService, sessionService, raceControlEventService, pitstopService);
 
             // --- Lap-time analysis ---
             Map<Integer, Double> avgLapTimes = analytics.averageLapTimePerDriver(9896);
@@ -86,8 +92,9 @@ public class SessionAnalytics {
                     driverService, sessionService);
             compoundAnalytics.analyzeCompoundPerformance(9896);
 
-            PitStrategyAnalysis pitStrategyAnalysis = new PitStrategyAnalysis(driverService, stintService);
+            PitStrategyAnalysis pitStrategyAnalysis = new PitStrategyAnalysis(driverService,stintService,pitstopService,positionService);
             pitStrategyAnalysis.analyzePitStops(9896);
+            pitStrategyAnalysis.printPitStrategy(9896);
 
             List<CompoundDegradation> deg = compoundAnalytics.analyzeCompoundDegradation(9896);
             deg.forEach(System.out::println);
