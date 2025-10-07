@@ -6,6 +6,7 @@ import com.f1client.model.Stint;
 import com.f1client.service.DriverService;
 import com.f1client.service.PitstopService;
 import com.f1client.service.StintService;
+import com.f1client.service.RaceControlEventService;
 
 import java.util.List;
 
@@ -25,19 +26,28 @@ public class PitStrategyAnalysis {
         this(driverService, stintService, new PitstopService(driverService));
     }
 
-    public void analyzePitStops(int sessionKey) {
-        for (Driver driver : driverService.getAllDrivers()) {
-            List<Pitstop> pitstops = pitstopService.getPitstopsByDriver(driver.getDriverNumber(), sessionKey);
-            List<Stint> stints = stintService.getStintsForDriver(driver.getDriverNumber());
+public void analyzePitStops(int sessionKey) {
+    // Get drivers that actually participated in the session
+    List<Driver> sessionDrivers = driverService.getDriversBySession(sessionKey);
 
-            if (stints.isEmpty()) {
-                System.out.println("No stint data for car " + driver.getDriverNumber());
-                continue;
-            }
+    for (Driver driver : sessionDrivers) {
+        int driverNumber = driver.getDriverNumber();
 
-            printPitStrategy(driver.getDriverNumber(), stints, pitstops);
+        List<Pitstop> pitstops = pitstopService.getPitstopsByDriver(driverNumber, sessionKey);
+        List<Stint> stints = stintService.getStintsForDriver(driverNumber);
+
+        if (stints == null || stints.isEmpty()) {
+            System.out.println("No stint data for car " + driverNumber);
+            continue;
         }
+
+        // Optional: skip if pitstop list is empty (e.g., DNF or no stop)
+        // if (pitstops == null || pitstops.isEmpty()) continue;
+
+        printPitStrategy(driverNumber, stints, pitstops);
     }
+}
+
 
     private void printPitStrategy(int driverNumber, List<Stint> stints, List<Pitstop> pitstops) {
         System.out.println("\nPit strategy for car " + driverNumber + ":");
