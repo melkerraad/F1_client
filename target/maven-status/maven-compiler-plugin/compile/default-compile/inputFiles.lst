@@ -1,10 +1,12 @@
 C:\Users\melke\F1_client\src\main\java\com\f1client\service\RaceControlEventService.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\loader\PositionLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\util\SessionUtils.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\PitstopLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\analytics\SessionAnalytics.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Session.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\RaceControlEvent.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\DataLoader.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\service\PositionService.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\SessionLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Driver.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\analytics\model\CompoundDegradation.java
@@ -17,6 +19,7 @@ C:\Users\melke\F1_client\src\main\java\com\f1client\util\LapUtils.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\service\PitstopService.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\loader\DriverLoader.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Lap.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\model\Position.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Pitstop.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\analytics\RaceControlAnalysis.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Stint.java
