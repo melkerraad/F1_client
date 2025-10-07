@@ -1,11 +1,16 @@
 package com.f1client.analytics;
 
+import com.f1client.analytics.model.CompoundDegradation;
+
 import com.f1client.model.Driver;
 import com.f1client.model.Lap;
+
 import com.f1client.service.DriverService;
 import com.f1client.service.LapService;
 import com.f1client.service.SessionService;
 import com.f1client.service.StintService;
+import com.f1client.service.RaceControlEventService;
+
 import com.f1client.util.SessionUtils;
 
 import java.util.HashMap;
@@ -17,12 +22,14 @@ public class SessionAnalytics {
     private final LapService lapService;
     private final StintService stintService;
     private final SessionService sessionService;
+    private final RaceControlEventService raceControlEventService;
 
-    public SessionAnalytics(DriverService driverService, LapService lapService, StintService stintService, SessionService sessionService) {
+    public SessionAnalytics(DriverService driverService, LapService lapService, StintService stintService, SessionService sessionService, RaceControlEventService raceControlEventService) {
         this.driverService = driverService;
         this.lapService = lapService;
         this.stintService = stintService;
         this.sessionService = sessionService;
+        this.raceControlEventService = raceControlEventService;
     }
 
     /**
@@ -62,8 +69,9 @@ public class SessionAnalytics {
             LapService lapService = new LapService(9896); // Singapore GP Race 2025
             StintService stintService = new StintService(9896);
             SessionService sessionService = new SessionService();
+            RaceControlEventService raceControlEventService = new RaceControlEventService();
 
-            SessionAnalytics analytics = new SessionAnalytics(driverService, lapService, stintService, sessionService);
+            SessionAnalytics analytics = new SessionAnalytics(driverService, lapService, stintService, sessionService, raceControlEventService);
 
             // --- Lap-time analysis ---
             Map<Integer, Double> avgLapTimes = analytics.averageLapTimePerDriver(9896);
@@ -74,11 +82,18 @@ public class SessionAnalytics {
         
             analytics.printDriverStints(81);
 
-            CompoundAnalytics compoundAnalytics = new CompoundAnalytics(lapService, stintService);
+            CompoundAnalytics compoundAnalytics = new CompoundAnalytics(lapService, stintService,
+                    driverService, sessionService);
             compoundAnalytics.analyzeCompoundPerformance(9896);
 
             PitStrategyAnalysis pitStrategyAnalysis = new PitStrategyAnalysis(driverService, stintService);
             pitStrategyAnalysis.analyzePitStops(9896);
+
+            List<CompoundDegradation> deg = compoundAnalytics.analyzeCompoundDegradation(9896);
+            deg.forEach(System.out::println);
+
+            RaceControlAnalysis raceControlAnalysis = new RaceControlAnalysis(raceControlEventService);
+            raceControlAnalysis.analyzeSession(9896);
 
         } catch (Exception e) {
             e.printStackTrace();
