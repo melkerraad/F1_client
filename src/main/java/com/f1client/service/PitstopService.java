@@ -1,6 +1,5 @@
 package com.f1client.service;
 
-import com.f1client.loader.DriverLoader;
 import com.f1client.loader.PitstopLoader;
 import com.f1client.model.Driver;
 import com.f1client.model.Pitstop;
@@ -36,6 +35,12 @@ public class PitstopService {
         return pitstops.stream()
                 .filter(p -> teamDrivers.stream()
                         .anyMatch(d -> d.getDriverNumber() == p.getDriverNumber()))
+                .collect(Collectors.toList());
+    }
+
+    public List<Pitstop> getPitstopsForSession(int sessionKey) {
+        return pitstops.stream()
+                .filter(p -> p.getSessionKey() == sessionKey)
                 .collect(Collectors.toList());
     }
 }

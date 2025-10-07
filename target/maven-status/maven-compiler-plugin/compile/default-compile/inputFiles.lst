@@ -15,5 +15,7 @@ C:\Users\melke\F1_client\src\main\java\com\f1client\model\Driver.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Pitstop.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\model\Stint.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\service\StintService.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\analytics\PitStrategyAnalysis.java
+C:\Users\melke\F1_client\src\main\java\com\f1client\analytics\CompoundAnalytics.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\service\DriverService.java
 C:\Users\melke\F1_client\src\main\java\com\f1client\service\SessionService.java
