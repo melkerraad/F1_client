@@ -1,0 +1,1900 @@
+{
+  "Mexico Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1248,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9620
+    },
+    "Practice 2" : {
+      "meeting_key" : 1248,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9619
+    },
+    "Practice 1" : {
+      "meeting_key" : 1248,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9618
+    },
+    "Race" : {
+      "meeting_key" : 1248,
+      "session_type" : "Race",
+      "location" : "Mexico City",
+      "session_key" : 9625
+    },
+    "Qualifying" : {
+      "meeting_key" : 1248,
+      "session_type" : "Qualifying",
+      "location" : "Mexico City",
+      "session_key" : 9621
+    }
+  },
+  "Bahrain Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1257,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 10009
+    },
+    "Day 1" : {
+      "meeting_key" : 1253,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9683
+    },
+    "Practice 2" : {
+      "meeting_key" : 1257,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 10008
+    },
+    "Day 2" : {
+      "meeting_key" : 1253,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9684
+    },
+    "Practice 1" : {
+      "meeting_key" : 1257,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 10007
+    },
+    "Day 3" : {
+      "meeting_key" : 1253,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9685
+    },
+    "Race" : {
+      "meeting_key" : 1257,
+      "session_type" : "Race",
+      "location" : "Sakhir",
+      "session_key" : 10014
+    },
+    "Qualifying" : {
+      "meeting_key" : 1257,
+      "session_type" : "Qualifying",
+      "location" : "Sakhir",
+      "session_key" : 10010
+    }
+  },
+  "Bahrain Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1228,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9464
+    },
+    "Practice 2" : {
+      "meeting_key" : 1228,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9463
+    },
+    "Practice 1" : {
+      "meeting_key" : 1228,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9462
+    },
+    "Race" : {
+      "meeting_key" : 1229,
+      "session_type" : "Race",
+      "location" : "Sakhir",
+      "session_key" : 9472
+    },
+    "Qualifying" : {
+      "meeting_key" : 1229,
+      "session_type" : "Qualifying",
+      "location" : "Sakhir",
+      "session_key" : 9468
+    }
+  },
+  "United Arab Emirates Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1252,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9657
+    },
+    "Practice 2" : {
+      "meeting_key" : 1252,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9656
+    },
+    "Practice 1" : {
+      "meeting_key" : 1252,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9461
+    },
+    "Race" : {
+      "meeting_key" : 1252,
+      "session_type" : "Race",
+      "location" : "Yas Island",
+      "session_key" : 9662
+    },
+    "Qualifying" : {
+      "meeting_key" : 1252,
+      "session_type" : "Qualifying",
+      "location" : "Yas Island",
+      "session_key" : 9658
+    }
+  },
+  "Singapore Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1219,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9160
+    },
+    "Practice 2" : {
+      "meeting_key" : 1219,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9159
+    },
+    "Practice 1" : {
+      "meeting_key" : 1219,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9158
+    },
+    "Race" : {
+      "meeting_key" : 1219,
+      "session_type" : "Race",
+      "location" : "Marina Bay",
+      "session_key" : 9165
+    },
+    "Qualifying" : {
+      "meeting_key" : 1219,
+      "session_type" : "Qualifying",
+      "location" : "Marina Bay",
+      "session_key" : 9161
+    }
+  },
+  "Singapore Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1246,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9601
+    },
+    "Practice 2" : {
+      "meeting_key" : 1246,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9600
+    },
+    "Practice 1" : {
+      "meeting_key" : 1246,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9599
+    },
+    "Race" : {
+      "meeting_key" : 1246,
+      "session_type" : "Race",
+      "location" : "Marina Bay",
+      "session_key" : 9606
+    },
+    "Qualifying" : {
+      "meeting_key" : 1246,
+      "session_type" : "Qualifying",
+      "location" : "Marina Bay",
+      "session_key" : 9602
+    }
+  },
+  "United Arab Emirates Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1226,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9192
+    },
+    "Practice 2" : {
+      "meeting_key" : 1226,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9191
+    },
+    "Practice 1" : {
+      "meeting_key" : 1226,
+      "session_type" : "Practice",
+      "location" : "Yas Island",
+      "session_key" : 9190
+    },
+    "Race" : {
+      "meeting_key" : 1226,
+      "session_type" : "Race",
+      "location" : "Yas Island",
+      "session_key" : 9197
+    },
+    "Qualifying" : {
+      "meeting_key" : 1226,
+      "session_type" : "Qualifying",
+      "location" : "Yas Island",
+      "session_key" : 9193
+    }
+  },
+  "Brazil Grand Prix 2024" : {
+    "Practice 1" : {
+      "meeting_key" : 1249,
+      "session_type" : "Practice",
+      "location" : "São Paulo",
+      "session_key" : 9626
+    },
+    "Race" : {
+      "meeting_key" : 1249,
+      "session_type" : "Race",
+      "location" : "São Paulo",
+      "session_key" : 9636
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1249,
+      "session_type" : "Qualifying",
+      "location" : "São Paulo",
+      "session_key" : 9631
+    },
+    "Sprint" : {
+      "meeting_key" : 1249,
+      "session_type" : "Race",
+      "location" : "São Paulo",
+      "session_key" : 9635
+    },
+    "Qualifying" : {
+      "meeting_key" : 1249,
+      "session_type" : "Qualifying",
+      "location" : "São Paulo",
+      "session_key" : 9627
+    }
+  },
+  "Bahrain Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1140,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 7764
+    },
+    "Practice 2" : {
+      "meeting_key" : 1140,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 7763
+    },
+    "Practice 1" : {
+      "meeting_key" : 1140,
+      "session_type" : "Practice",
+      "location" : "Sakhir",
+      "session_key" : 9222
+    },
+    "Race" : {
+      "meeting_key" : 1141,
+      "session_type" : "Race",
+      "location" : "Sakhir",
+      "session_key" : 7953
+    },
+    "Qualifying" : {
+      "meeting_key" : 1141,
+      "session_type" : "Qualifying",
+      "location" : "Sakhir",
+      "session_key" : 7768
+    }
+  },
+  "Brazil Grand Prix 2023" : {
+    "Practice 1" : {
+      "meeting_key" : 1224,
+      "session_type" : "Practice",
+      "location" : "São Paulo",
+      "session_key" : 9198
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1224,
+      "session_type" : "Qualifying",
+      "location" : "São Paulo",
+      "session_key" : 9308
+    },
+    "Race" : {
+      "meeting_key" : 1224,
+      "session_type" : "Race",
+      "location" : "São Paulo",
+      "session_key" : 9205
+    },
+    "Sprint" : {
+      "meeting_key" : 1224,
+      "session_type" : "Race",
+      "location" : "São Paulo",
+      "session_key" : 9204
+    },
+    "Qualifying" : {
+      "meeting_key" : 1224,
+      "session_type" : "Qualifying",
+      "location" : "São Paulo",
+      "session_key" : 9304
+    }
+  },
+  "Australia Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1254,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9688
+    },
+    "Practice 2" : {
+      "meeting_key" : 1254,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9687
+    },
+    "Practice 1" : {
+      "meeting_key" : 1254,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9686
+    },
+    "Race" : {
+      "meeting_key" : 1254,
+      "session_type" : "Race",
+      "location" : "Melbourne",
+      "session_key" : 9693
+    },
+    "Qualifying" : {
+      "meeting_key" : 1254,
+      "session_type" : "Qualifying",
+      "location" : "Melbourne",
+      "session_key" : 9689
+    }
+  },
+  "Spain Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1238,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9534
+    },
+    "Practice 2" : {
+      "meeting_key" : 1238,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9533
+    },
+    "Practice 1" : {
+      "meeting_key" : 1238,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9532
+    },
+    "Race" : {
+      "meeting_key" : 1238,
+      "session_type" : "Race",
+      "location" : "Barcelona",
+      "session_key" : 9539
+    },
+    "Qualifying" : {
+      "meeting_key" : 1238,
+      "session_type" : "Qualifying",
+      "location" : "Barcelona",
+      "session_key" : 9535
+    }
+  },
+  "Spain Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1262,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9966
+    },
+    "Practice 2" : {
+      "meeting_key" : 1262,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9965
+    },
+    "Practice 1" : {
+      "meeting_key" : 1262,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9964
+    },
+    "Race" : {
+      "meeting_key" : 1262,
+      "session_type" : "Race",
+      "location" : "Barcelona",
+      "session_key" : 9971
+    },
+    "Qualifying" : {
+      "meeting_key" : 1262,
+      "session_type" : "Qualifying",
+      "location" : "Barcelona",
+      "session_key" : 9967
+    }
+  },
+  "Spain Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1211,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9097
+    },
+    "Practice 2" : {
+      "meeting_key" : 1211,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9096
+    },
+    "Practice 1" : {
+      "meeting_key" : 1211,
+      "session_type" : "Practice",
+      "location" : "Barcelona",
+      "session_key" : 9095
+    },
+    "Race" : {
+      "meeting_key" : 1211,
+      "session_type" : "Race",
+      "location" : "Barcelona",
+      "session_key" : 9102
+    },
+    "Qualifying" : {
+      "meeting_key" : 1211,
+      "session_type" : "Qualifying",
+      "location" : "Barcelona",
+      "session_key" : 9098
+    }
+  },
+  "China Grand Prix 2025" : {
+    "Practice 1" : {
+      "meeting_key" : 1255,
+      "session_type" : "Practice",
+      "location" : "Shanghai",
+      "session_key" : 9988
+    },
+    "Race" : {
+      "meeting_key" : 1255,
+      "session_type" : "Race",
+      "location" : "Shanghai",
+      "session_key" : 9998
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1255,
+      "session_type" : "Qualifying",
+      "location" : "Shanghai",
+      "session_key" : 9989
+    },
+    "Sprint" : {
+      "meeting_key" : 1255,
+      "session_type" : "Race",
+      "location" : "Shanghai",
+      "session_key" : 9993
+    },
+    "Qualifying" : {
+      "meeting_key" : 1255,
+      "session_type" : "Qualifying",
+      "location" : "Shanghai",
+      "session_key" : 9994
+    }
+  },
+  "Australia Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1231,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9483
+    },
+    "Practice 2" : {
+      "meeting_key" : 1231,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9482
+    },
+    "Practice 1" : {
+      "meeting_key" : 1231,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 9481
+    },
+    "Race" : {
+      "meeting_key" : 1231,
+      "session_type" : "Race",
+      "location" : "Melbourne",
+      "session_key" : 9488
+    },
+    "Qualifying" : {
+      "meeting_key" : 1231,
+      "session_type" : "Qualifying",
+      "location" : "Melbourne",
+      "session_key" : 9484
+    }
+  },
+  "China Grand Prix 2024" : {
+    "Practice 1" : {
+      "meeting_key" : 1233,
+      "session_type" : "Practice",
+      "location" : "Shanghai",
+      "session_key" : 9663
+    },
+    "Race" : {
+      "meeting_key" : 1233,
+      "session_type" : "Race",
+      "location" : "Shanghai",
+      "session_key" : 9673
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1233,
+      "session_type" : "Qualifying",
+      "location" : "Shanghai",
+      "session_key" : 9668
+    },
+    "Sprint" : {
+      "meeting_key" : 1233,
+      "session_type" : "Race",
+      "location" : "Shanghai",
+      "session_key" : 9672
+    },
+    "Qualifying" : {
+      "meeting_key" : 1233,
+      "session_type" : "Qualifying",
+      "location" : "Shanghai",
+      "session_key" : 9664
+    }
+  },
+  "Australia Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1143,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 7782
+    },
+    "Practice 2" : {
+      "meeting_key" : 1143,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 7781
+    },
+    "Practice 1" : {
+      "meeting_key" : 1143,
+      "session_type" : "Practice",
+      "location" : "Melbourne",
+      "session_key" : 7780
+    },
+    "Race" : {
+      "meeting_key" : 1143,
+      "session_type" : "Race",
+      "location" : "Melbourne",
+      "session_key" : 7787
+    },
+    "Qualifying" : {
+      "meeting_key" : 1143,
+      "session_type" : "Qualifying",
+      "location" : "Melbourne",
+      "session_key" : 7783
+    }
+  },
+  "Saudi Arabia Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1142,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 7774
+    },
+    "Practice 2" : {
+      "meeting_key" : 1142,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 7773
+    },
+    "Practice 1" : {
+      "meeting_key" : 1142,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 7772
+    },
+    "Race" : {
+      "meeting_key" : 1142,
+      "session_type" : "Race",
+      "location" : "Jeddah",
+      "session_key" : 7779
+    },
+    "Qualifying" : {
+      "meeting_key" : 1142,
+      "session_type" : "Qualifying",
+      "location" : "Jeddah",
+      "session_key" : 7775
+    }
+  },
+  "Saudi Arabia Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1230,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 9475
+    },
+    "Practice 2" : {
+      "meeting_key" : 1230,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 9474
+    },
+    "Practice 1" : {
+      "meeting_key" : 1230,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 9473
+    },
+    "Race" : {
+      "meeting_key" : 1230,
+      "session_type" : "Race",
+      "location" : "Jeddah",
+      "session_key" : 9480
+    },
+    "Qualifying" : {
+      "meeting_key" : 1230,
+      "session_type" : "Qualifying",
+      "location" : "Jeddah",
+      "session_key" : 9476
+    }
+  },
+  "Saudi Arabia Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1258,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 10017
+    },
+    "Practice 2" : {
+      "meeting_key" : 1258,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 10016
+    },
+    "Practice 1" : {
+      "meeting_key" : 1258,
+      "session_type" : "Practice",
+      "location" : "Jeddah",
+      "session_key" : 10015
+    },
+    "Race" : {
+      "meeting_key" : 1258,
+      "session_type" : "Race",
+      "location" : "Jeddah",
+      "session_key" : 10022
+    },
+    "Qualifying" : {
+      "meeting_key" : 1258,
+      "session_type" : "Qualifying",
+      "location" : "Jeddah",
+      "session_key" : 10018
+    }
+  },
+  "Mexico Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1223,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9176
+    },
+    "Practice 2" : {
+      "meeting_key" : 1223,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9175
+    },
+    "Practice 1" : {
+      "meeting_key" : 1223,
+      "session_type" : "Practice",
+      "location" : "Mexico City",
+      "session_key" : 9174
+    },
+    "Race" : {
+      "meeting_key" : 1223,
+      "session_type" : "Race",
+      "location" : "Mexico City",
+      "session_key" : 9181
+    },
+    "Qualifying" : {
+      "meeting_key" : 1223,
+      "session_type" : "Qualifying",
+      "location" : "Mexico City",
+      "session_key" : 9177
+    }
+  },
+  "Austria Grand Prix 2023" : {
+    "Practice 1" : {
+      "meeting_key" : 1213,
+      "session_type" : "Practice",
+      "location" : "Spielberg",
+      "session_key" : 9111
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1213,
+      "session_type" : "Qualifying",
+      "location" : "Spielberg",
+      "session_key" : 9282
+    },
+    "Race" : {
+      "meeting_key" : 1213,
+      "session_type" : "Race",
+      "location" : "Spielberg",
+      "session_key" : 9118
+    },
+    "Sprint" : {
+      "meeting_key" : 1213,
+      "session_type" : "Race",
+      "location" : "Spielberg",
+      "session_key" : 9117
+    },
+    "Qualifying" : {
+      "meeting_key" : 1213,
+      "session_type" : "Qualifying",
+      "location" : "Spielberg",
+      "session_key" : 9112
+    }
+  },
+  "United Kingdom Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1277,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9942
+    },
+    "Practice 2" : {
+      "meeting_key" : 1277,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9941
+    },
+    "Practice 1" : {
+      "meeting_key" : 1277,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9940
+    },
+    "Race" : {
+      "meeting_key" : 1277,
+      "session_type" : "Race",
+      "location" : "Silverstone",
+      "session_key" : 9947
+    },
+    "Qualifying" : {
+      "meeting_key" : 1277,
+      "session_type" : "Qualifying",
+      "location" : "Silverstone",
+      "session_key" : 9943
+    }
+  },
+  "Austria Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1264,
+      "session_type" : "Practice",
+      "location" : "Spielberg",
+      "session_key" : 9950
+    },
+    "Practice 2" : {
+      "meeting_key" : 1264,
+      "session_type" : "Practice",
+      "location" : "Spielberg",
+      "session_key" : 9949
+    },
+    "Practice 1" : {
+      "meeting_key" : 1264,
+      "session_type" : "Practice",
+      "location" : "Spielberg",
+      "session_key" : 9948
+    },
+    "Race" : {
+      "meeting_key" : 1264,
+      "session_type" : "Race",
+      "location" : "Spielberg",
+      "session_key" : 9955
+    },
+    "Qualifying" : {
+      "meeting_key" : 1264,
+      "session_type" : "Qualifying",
+      "location" : "Spielberg",
+      "session_key" : 9951
+    }
+  },
+  "Great Britain Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1214,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9121
+    },
+    "Practice 2" : {
+      "meeting_key" : 1214,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9120
+    },
+    "Practice 1" : {
+      "meeting_key" : 1214,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9119
+    },
+    "Race" : {
+      "meeting_key" : 1214,
+      "session_type" : "Race",
+      "location" : "Silverstone",
+      "session_key" : 9126
+    },
+    "Qualifying" : {
+      "meeting_key" : 1214,
+      "session_type" : "Qualifying",
+      "location" : "Silverstone",
+      "session_key" : 9122
+    }
+  },
+  "Great Britain Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1240,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9553
+    },
+    "Practice 2" : {
+      "meeting_key" : 1240,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9552
+    },
+    "Practice 1" : {
+      "meeting_key" : 1240,
+      "session_type" : "Practice",
+      "location" : "Silverstone",
+      "session_key" : 9551
+    },
+    "Race" : {
+      "meeting_key" : 1240,
+      "session_type" : "Race",
+      "location" : "Silverstone",
+      "session_key" : 9558
+    },
+    "Qualifying" : {
+      "meeting_key" : 1240,
+      "session_type" : "Qualifying",
+      "location" : "Silverstone",
+      "session_key" : 9554
+    }
+  },
+  "Austria Grand Prix 2024" : {
+    "Practice 1" : {
+      "meeting_key" : 1239,
+      "session_type" : "Practice",
+      "location" : "Spielberg",
+      "session_key" : 9540
+    },
+    "Race" : {
+      "meeting_key" : 1239,
+      "session_type" : "Race",
+      "location" : "Spielberg",
+      "session_key" : 9550
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1239,
+      "session_type" : "Qualifying",
+      "location" : "Spielberg",
+      "session_key" : 9545
+    },
+    "Sprint" : {
+      "meeting_key" : 1239,
+      "session_type" : "Race",
+      "location" : "Spielberg",
+      "session_key" : 9549
+    },
+    "Qualifying" : {
+      "meeting_key" : 1239,
+      "session_type" : "Qualifying",
+      "location" : "Spielberg",
+      "session_key" : 9541
+    }
+  },
+  "United States Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1208,
+      "session_type" : "Practice",
+      "location" : "Miami",
+      "session_key" : 9073
+    },
+    "Practice 2" : {
+      "meeting_key" : 1208,
+      "session_type" : "Practice",
+      "location" : "Miami",
+      "session_key" : 9072
+    },
+    "Practice 1" : {
+      "meeting_key" : 1208,
+      "session_type" : "Practice",
+      "location" : "Miami",
+      "session_key" : 9071
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1222,
+      "session_type" : "Qualifying",
+      "location" : "Austin",
+      "session_key" : 9294
+    },
+    "Race" : {
+      "meeting_key" : 1208,
+      "session_type" : "Race",
+      "location" : "Miami",
+      "session_key" : 9078
+    },
+    "Sprint" : {
+      "meeting_key" : 1222,
+      "session_type" : "Race",
+      "location" : "Austin",
+      "session_key" : 9212
+    },
+    "Qualifying" : {
+      "meeting_key" : 1208,
+      "session_type" : "Qualifying",
+      "location" : "Miami",
+      "session_key" : 9074
+    }
+  },
+  "United States Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1250,
+      "session_type" : "Practice",
+      "location" : "Las Vegas",
+      "session_key" : 9639
+    },
+    "Practice 2" : {
+      "meeting_key" : 1250,
+      "session_type" : "Practice",
+      "location" : "Las Vegas",
+      "session_key" : 9638
+    },
+    "Practice 1" : {
+      "meeting_key" : 1234,
+      "session_type" : "Practice",
+      "location" : "Miami",
+      "session_key" : 9497
+    },
+    "Race" : {
+      "meeting_key" : 1234,
+      "session_type" : "Race",
+      "location" : "Miami",
+      "session_key" : 9507
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1234,
+      "session_type" : "Qualifying",
+      "location" : "Miami",
+      "session_key" : 9502
+    },
+    "Sprint" : {
+      "meeting_key" : 1234,
+      "session_type" : "Race",
+      "location" : "Miami",
+      "session_key" : 9506
+    },
+    "Qualifying" : {
+      "meeting_key" : 1234,
+      "session_type" : "Qualifying",
+      "location" : "Miami",
+      "session_key" : 9498
+    }
+  },
+  "United States Grand Prix 2025" : {
+    "Practice 1" : {
+      "meeting_key" : 1259,
+      "session_type" : "Practice",
+      "location" : "Miami",
+      "session_key" : 10023
+    },
+    "Race" : {
+      "meeting_key" : 1259,
+      "session_type" : "Race",
+      "location" : "Miami",
+      "session_key" : 10033
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1259,
+      "session_type" : "Qualifying",
+      "location" : "Miami",
+      "session_key" : 10024
+    },
+    "Sprint" : {
+      "meeting_key" : 1259,
+      "session_type" : "Race",
+      "location" : "Miami",
+      "session_key" : 10028
+    },
+    "Qualifying" : {
+      "meeting_key" : 1259,
+      "session_type" : "Qualifying",
+      "location" : "Miami",
+      "session_key" : 10029
+    }
+  },
+  "Singapore Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1270,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9891
+    },
+    "Practice 2" : {
+      "meeting_key" : 1270,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9890
+    },
+    "Practice 1" : {
+      "meeting_key" : 1270,
+      "session_type" : "Practice",
+      "location" : "Marina Bay",
+      "session_key" : 9889
+    },
+    "Race" : {
+      "meeting_key" : 1270,
+      "session_type" : "Race",
+      "location" : "Marina Bay",
+      "session_key" : 9896
+    },
+    "Qualifying" : {
+      "meeting_key" : 1270,
+      "session_type" : "Qualifying",
+      "location" : "Marina Bay",
+      "session_key" : 9892
+    }
+  },
+  "Hungary Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1266,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9923
+    },
+    "Practice 2" : {
+      "meeting_key" : 1266,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9922
+    },
+    "Practice 1" : {
+      "meeting_key" : 1266,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9921
+    },
+    "Race" : {
+      "meeting_key" : 1266,
+      "session_type" : "Race",
+      "location" : "Budapest",
+      "session_key" : 9928
+    },
+    "Qualifying" : {
+      "meeting_key" : 1266,
+      "session_type" : "Qualifying",
+      "location" : "Budapest",
+      "session_key" : 9924
+    }
+  },
+  "Hungary Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1241,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9561
+    },
+    "Practice 2" : {
+      "meeting_key" : 1241,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9560
+    },
+    "Practice 1" : {
+      "meeting_key" : 1241,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9559
+    },
+    "Race" : {
+      "meeting_key" : 1241,
+      "session_type" : "Race",
+      "location" : "Budapest",
+      "session_key" : 9566
+    },
+    "Qualifying" : {
+      "meeting_key" : 1241,
+      "session_type" : "Qualifying",
+      "location" : "Budapest",
+      "session_key" : 9562
+    }
+  },
+  "Hungary Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1215,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9128
+    },
+    "Practice 2" : {
+      "meeting_key" : 1215,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9127
+    },
+    "Practice 1" : {
+      "meeting_key" : 1215,
+      "session_type" : "Practice",
+      "location" : "Budapest",
+      "session_key" : 9223
+    },
+    "Race" : {
+      "meeting_key" : 1215,
+      "session_type" : "Race",
+      "location" : "Budapest",
+      "session_key" : 9133
+    },
+    "Qualifying" : {
+      "meeting_key" : 1215,
+      "session_type" : "Qualifying",
+      "location" : "Budapest",
+      "session_key" : 9129
+    }
+  },
+  "Belgium Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1242,
+      "session_type" : "Practice",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9569
+    },
+    "Practice 2" : {
+      "meeting_key" : 1242,
+      "session_type" : "Practice",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9568
+    },
+    "Practice 1" : {
+      "meeting_key" : 1242,
+      "session_type" : "Practice",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9567
+    },
+    "Race" : {
+      "meeting_key" : 1242,
+      "session_type" : "Race",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9574
+    },
+    "Qualifying" : {
+      "meeting_key" : 1242,
+      "session_type" : "Qualifying",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9570
+    }
+  },
+  "Belgium Grand Prix 2025" : {
+    "Practice 1" : {
+      "meeting_key" : 1265,
+      "session_type" : "Practice",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9929
+    },
+    "Race" : {
+      "meeting_key" : 1265,
+      "session_type" : "Race",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9939
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1265,
+      "session_type" : "Qualifying",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9930
+    },
+    "Sprint" : {
+      "meeting_key" : 1265,
+      "session_type" : "Race",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9934
+    },
+    "Qualifying" : {
+      "meeting_key" : 1265,
+      "session_type" : "Qualifying",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9935
+    }
+  },
+  "Belgium Grand Prix 2023" : {
+    "Practice 1" : {
+      "meeting_key" : 1216,
+      "session_type" : "Practice",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9134
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1216,
+      "session_type" : "Qualifying",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9286
+    },
+    "Race" : {
+      "meeting_key" : 1216,
+      "session_type" : "Race",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9141
+    },
+    "Sprint" : {
+      "meeting_key" : 1216,
+      "session_type" : "Race",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9140
+    },
+    "Qualifying" : {
+      "meeting_key" : 1216,
+      "session_type" : "Qualifying",
+      "location" : "Spa-Francorchamps",
+      "session_key" : 9135
+    }
+  },
+  "Azerbaijan Grand Prix 2023" : {
+    "Practice 1" : {
+      "meeting_key" : 1207,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9063
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1207,
+      "session_type" : "Qualifying",
+      "location" : "Baku",
+      "session_key" : 9278
+    },
+    "Race" : {
+      "meeting_key" : 1207,
+      "session_type" : "Race",
+      "location" : "Baku",
+      "session_key" : 9070
+    },
+    "Sprint" : {
+      "meeting_key" : 1207,
+      "session_type" : "Race",
+      "location" : "Baku",
+      "session_key" : 9069
+    },
+    "Qualifying" : {
+      "meeting_key" : 1207,
+      "session_type" : "Qualifying",
+      "location" : "Baku",
+      "session_key" : 9064
+    }
+  },
+  "Azerbaijan Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1269,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9899
+    },
+    "Practice 2" : {
+      "meeting_key" : 1269,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9898
+    },
+    "Practice 1" : {
+      "meeting_key" : 1269,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9897
+    },
+    "Race" : {
+      "meeting_key" : 1269,
+      "session_type" : "Race",
+      "location" : "Baku",
+      "session_key" : 9904
+    },
+    "Qualifying" : {
+      "meeting_key" : 1269,
+      "session_type" : "Qualifying",
+      "location" : "Baku",
+      "session_key" : 9900
+    }
+  },
+  "Azerbaijan Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1245,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9593
+    },
+    "Practice 2" : {
+      "meeting_key" : 1245,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9592
+    },
+    "Practice 1" : {
+      "meeting_key" : 1245,
+      "session_type" : "Practice",
+      "location" : "Baku",
+      "session_key" : 9591
+    },
+    "Race" : {
+      "meeting_key" : 1245,
+      "session_type" : "Race",
+      "location" : "Baku",
+      "session_key" : 9598
+    },
+    "Qualifying" : {
+      "meeting_key" : 1245,
+      "session_type" : "Qualifying",
+      "location" : "Baku",
+      "session_key" : 9594
+    }
+  },
+  "Japan Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1256,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 10001
+    },
+    "Practice 2" : {
+      "meeting_key" : 1256,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 10000
+    },
+    "Practice 1" : {
+      "meeting_key" : 1256,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9999
+    },
+    "Race" : {
+      "meeting_key" : 1256,
+      "session_type" : "Race",
+      "location" : "Suzuka",
+      "session_key" : 10006
+    },
+    "Qualifying" : {
+      "meeting_key" : 1256,
+      "session_type" : "Qualifying",
+      "location" : "Suzuka",
+      "session_key" : 10002
+    }
+  },
+  "Japan Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1232,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9491
+    },
+    "Practice 2" : {
+      "meeting_key" : 1232,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9490
+    },
+    "Practice 1" : {
+      "meeting_key" : 1232,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9489
+    },
+    "Race" : {
+      "meeting_key" : 1232,
+      "session_type" : "Race",
+      "location" : "Suzuka",
+      "session_key" : 9496
+    },
+    "Qualifying" : {
+      "meeting_key" : 1232,
+      "session_type" : "Qualifying",
+      "location" : "Suzuka",
+      "session_key" : 9492
+    }
+  },
+  "Japan Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1220,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9168
+    },
+    "Practice 2" : {
+      "meeting_key" : 1220,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9167
+    },
+    "Practice 1" : {
+      "meeting_key" : 1220,
+      "session_type" : "Practice",
+      "location" : "Suzuka",
+      "session_key" : 9166
+    },
+    "Race" : {
+      "meeting_key" : 1220,
+      "session_type" : "Race",
+      "location" : "Suzuka",
+      "session_key" : 9173
+    },
+    "Qualifying" : {
+      "meeting_key" : 1220,
+      "session_type" : "Qualifying",
+      "location" : "Suzuka",
+      "session_key" : 9169
+    }
+  },
+  "Qatar Grand Prix 2023" : {
+    "Practice 1" : {
+      "meeting_key" : 1221,
+      "session_type" : "Practice",
+      "location" : "Lusail",
+      "session_key" : 9214
+    },
+    "Sprint Shootout" : {
+      "meeting_key" : 1221,
+      "session_type" : "Qualifying",
+      "location" : "Lusail",
+      "session_key" : 9298
+    },
+    "Race" : {
+      "meeting_key" : 1221,
+      "session_type" : "Race",
+      "location" : "Lusail",
+      "session_key" : 9221
+    },
+    "Sprint" : {
+      "meeting_key" : 1221,
+      "session_type" : "Race",
+      "location" : "Lusail",
+      "session_key" : 9220
+    },
+    "Qualifying" : {
+      "meeting_key" : 1221,
+      "session_type" : "Qualifying",
+      "location" : "Lusail",
+      "session_key" : 9215
+    }
+  },
+  "Netherlands Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1267,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9915
+    },
+    "Practice 2" : {
+      "meeting_key" : 1267,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9914
+    },
+    "Practice 1" : {
+      "meeting_key" : 1267,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9913
+    },
+    "Race" : {
+      "meeting_key" : 1267,
+      "session_type" : "Race",
+      "location" : "Zandvoort",
+      "session_key" : 9920
+    },
+    "Qualifying" : {
+      "meeting_key" : 1267,
+      "session_type" : "Qualifying",
+      "location" : "Zandvoort",
+      "session_key" : 9916
+    }
+  },
+  "Netherlands Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1217,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9144
+    },
+    "Practice 2" : {
+      "meeting_key" : 1217,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9143
+    },
+    "Practice 1" : {
+      "meeting_key" : 1217,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9142
+    },
+    "Race" : {
+      "meeting_key" : 1217,
+      "session_type" : "Race",
+      "location" : "Zandvoort",
+      "session_key" : 9149
+    },
+    "Qualifying" : {
+      "meeting_key" : 1217,
+      "session_type" : "Qualifying",
+      "location" : "Zandvoort",
+      "session_key" : 9145
+    }
+  },
+  "Netherlands Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1243,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9577
+    },
+    "Practice 2" : {
+      "meeting_key" : 1243,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9576
+    },
+    "Practice 1" : {
+      "meeting_key" : 1243,
+      "session_type" : "Practice",
+      "location" : "Zandvoort",
+      "session_key" : 9575
+    },
+    "Race" : {
+      "meeting_key" : 1243,
+      "session_type" : "Race",
+      "location" : "Zandvoort",
+      "session_key" : 9582
+    },
+    "Qualifying" : {
+      "meeting_key" : 1243,
+      "session_type" : "Qualifying",
+      "location" : "Zandvoort",
+      "session_key" : 9578
+    }
+  },
+  "Qatar Grand Prix 2024" : {
+    "Practice 1" : {
+      "meeting_key" : 1251,
+      "session_type" : "Practice",
+      "location" : "Lusail",
+      "session_key" : 9645
+    },
+    "Race" : {
+      "meeting_key" : 1251,
+      "session_type" : "Race",
+      "location" : "Lusail",
+      "session_key" : 9655
+    },
+    "Sprint Qualifying" : {
+      "meeting_key" : 1251,
+      "session_type" : "Qualifying",
+      "location" : "Lusail",
+      "session_key" : 9650
+    },
+    "Sprint" : {
+      "meeting_key" : 1251,
+      "session_type" : "Race",
+      "location" : "Lusail",
+      "session_key" : 9654
+    },
+    "Qualifying" : {
+      "meeting_key" : 1251,
+      "session_type" : "Qualifying",
+      "location" : "Lusail",
+      "session_key" : 9646
+    }
+  },
+  "Monaco Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1261,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9974
+    },
+    "Practice 2" : {
+      "meeting_key" : 1261,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9973
+    },
+    "Practice 1" : {
+      "meeting_key" : 1261,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9972
+    },
+    "Race" : {
+      "meeting_key" : 1261,
+      "session_type" : "Race",
+      "location" : "Monaco",
+      "session_key" : 9979
+    },
+    "Qualifying" : {
+      "meeting_key" : 1261,
+      "session_type" : "Qualifying",
+      "location" : "Monaco",
+      "session_key" : 9975
+    }
+  },
+  "Italy Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1235,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9510
+    },
+    "Practice 2" : {
+      "meeting_key" : 1235,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9509
+    },
+    "Practice 1" : {
+      "meeting_key" : 1235,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9508
+    },
+    "Race" : {
+      "meeting_key" : 1235,
+      "session_type" : "Race",
+      "location" : "Imola",
+      "session_key" : 9515
+    },
+    "Qualifying" : {
+      "meeting_key" : 1235,
+      "session_type" : "Qualifying",
+      "location" : "Imola",
+      "session_key" : 9511
+    }
+  },
+  "Italy Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1260,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9982
+    },
+    "Practice 2" : {
+      "meeting_key" : 1260,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9981
+    },
+    "Practice 1" : {
+      "meeting_key" : 1260,
+      "session_type" : "Practice",
+      "location" : "Imola",
+      "session_key" : 9980
+    },
+    "Race" : {
+      "meeting_key" : 1260,
+      "session_type" : "Race",
+      "location" : "Imola",
+      "session_key" : 9987
+    },
+    "Qualifying" : {
+      "meeting_key" : 1260,
+      "session_type" : "Qualifying",
+      "location" : "Imola",
+      "session_key" : 9983
+    }
+  },
+  "Monaco Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1236,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9518
+    },
+    "Practice 2" : {
+      "meeting_key" : 1236,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9517
+    },
+    "Practice 1" : {
+      "meeting_key" : 1236,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9516
+    },
+    "Race" : {
+      "meeting_key" : 1236,
+      "session_type" : "Race",
+      "location" : "Monaco",
+      "session_key" : 9523
+    },
+    "Qualifying" : {
+      "meeting_key" : 1236,
+      "session_type" : "Qualifying",
+      "location" : "Monaco",
+      "session_key" : 9519
+    }
+  },
+  "Italy Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1218,
+      "session_type" : "Practice",
+      "location" : "Monza",
+      "session_key" : 9152
+    },
+    "Practice 2" : {
+      "meeting_key" : 1218,
+      "session_type" : "Practice",
+      "location" : "Monza",
+      "session_key" : 9151
+    },
+    "Practice 1" : {
+      "meeting_key" : 1218,
+      "session_type" : "Practice",
+      "location" : "Monza",
+      "session_key" : 9150
+    },
+    "Race" : {
+      "meeting_key" : 1218,
+      "session_type" : "Race",
+      "location" : "Monza",
+      "session_key" : 9157
+    },
+    "Qualifying" : {
+      "meeting_key" : 1218,
+      "session_type" : "Qualifying",
+      "location" : "Monza",
+      "session_key" : 9153
+    }
+  },
+  "Canada Grand Prix 2025" : {
+    "Practice 3" : {
+      "meeting_key" : 1263,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9958
+    },
+    "Practice 2" : {
+      "meeting_key" : 1263,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9957
+    },
+    "Practice 1" : {
+      "meeting_key" : 1263,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9956
+    },
+    "Race" : {
+      "meeting_key" : 1263,
+      "session_type" : "Race",
+      "location" : "Montréal",
+      "session_key" : 9963
+    },
+    "Qualifying" : {
+      "meeting_key" : 1263,
+      "session_type" : "Qualifying",
+      "location" : "Montréal",
+      "session_key" : 9959
+    }
+  },
+  "Canada Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1212,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9105
+    },
+    "Practice 2" : {
+      "meeting_key" : 1212,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9104
+    },
+    "Practice 1" : {
+      "meeting_key" : 1212,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9103
+    },
+    "Race" : {
+      "meeting_key" : 1212,
+      "session_type" : "Race",
+      "location" : "Montréal",
+      "session_key" : 9110
+    },
+    "Qualifying" : {
+      "meeting_key" : 1212,
+      "session_type" : "Qualifying",
+      "location" : "Montréal",
+      "session_key" : 9106
+    }
+  },
+  "Monaco Grand Prix 2023" : {
+    "Practice 3" : {
+      "meeting_key" : 1210,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9089
+    },
+    "Practice 2" : {
+      "meeting_key" : 1210,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9088
+    },
+    "Practice 1" : {
+      "meeting_key" : 1210,
+      "session_type" : "Practice",
+      "location" : "Monaco",
+      "session_key" : 9087
+    },
+    "Race" : {
+      "meeting_key" : 1210,
+      "session_type" : "Race",
+      "location" : "Monaco",
+      "session_key" : 9094
+    },
+    "Qualifying" : {
+      "meeting_key" : 1210,
+      "session_type" : "Qualifying",
+      "location" : "Monaco",
+      "session_key" : 9090
+    }
+  },
+  "Canada Grand Prix 2024" : {
+    "Practice 3" : {
+      "meeting_key" : 1237,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9526
+    },
+    "Practice 2" : {
+      "meeting_key" : 1237,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9525
+    },
+    "Practice 1" : {
+      "meeting_key" : 1237,
+      "session_type" : "Practice",
+      "location" : "Montréal",
+      "session_key" : 9524
+    },
+    "Race" : {
+      "meeting_key" : 1237,
+      "session_type" : "Race",
+      "location" : "Montréal",
+      "session_key" : 9531
+    },
+    "Qualifying" : {
+      "meeting_key" : 1237,
+      "session_type" : "Qualifying",
+      "location" : "Montréal",
+      "session_key" : 9527
+    }
+  }
+}
