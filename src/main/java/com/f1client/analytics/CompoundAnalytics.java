@@ -29,31 +29,62 @@ public class CompoundAnalytics {
     }
 
     public void analyzeCompoundPerformance(int sessionKey) {
+        // Get all stints and group by compound
         List<Stint> stints = stintService.getStintsForSession(sessionKey);
         Map<String, List<Stint>> stintsByCompound = stints.stream()
                 .collect(Collectors.groupingBy(Stint::getCompound));
 
-        for (String compound : stintsByCompound.keySet()) {
-            List<Stint> compoundStints = stintsByCompound.get(compound);
+        // Compute average lap time per compound
+        Map<String, Double> avgLapTimesByCompound = new HashMap<>();
+        Map<String, Integer> totalLapsByCompound = new HashMap<>();
+
+        for (Map.Entry<String, List<Stint>> entry : stintsByCompound.entrySet()) {
+            String compound = entry.getKey();
+            List<Stint> compoundStints = entry.getValue();
             List<Lap> compoundLaps = new ArrayList<>();
 
             for (Stint stint : compoundStints) {
-                // Filter laps for driver and stint
-                List<Lap> laps = lapService.getLapsByDriverNumber(stint.getDriverNumber()).stream()
-                        .filter(l -> l.getLapNumber() >= stint.getLapStart() && l.getLapNumber() <= stint.getLapEnd())
-                        .collect(Collectors.toList());
-                compoundLaps.addAll(laps);
-            }
+                Integer lapStart = stint.getLapStart();
+                Integer lapEnd = stint.getLapEnd();
 
-            // Compute average lap time
+                if (lapStart == null || lapEnd == null) {
+                    System.out.println("Skipping stint for driver " + stint.getDriverNumber() + " due to missing lap range.");
+                    continue;
+                }
+
+                List<Lap> laps = lapService.getLapsByDriverNumber(stint.getDriverNumber()).stream()
+                        .filter(l -> l.getLapNumber() >= lapStart && l.getLapNumber() <= lapEnd)
+                        .filter(l -> l.getLapDuration() > 0)
+                        .collect(Collectors.toList());
+
+                compoundLaps.addAll(laps);
+}
+
+
             double avgLapTime = compoundLaps.stream()
                     .mapToDouble(Lap::getLapDuration)
                     .average()
                     .orElse(0.0);
 
-            System.out.println("Compound: " + compound +
-                    " | Total laps: " + compoundLaps.size() +
-                    " | Average lap time: " + avgLapTime + " seconds");
+            avgLapTimesByCompound.put(compound, avgLapTime);
+            totalLapsByCompound.put(compound, compoundLaps.size());
+        }
+
+        // Sort compounds by average lap time (fastest first)
+        List<String> sortedCompounds = avgLapTimesByCompound.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue())
+                .map(Map.Entry::getKey)
+                .toList();
+
+        // Find fastest average lap time
+        double fastestAvg = avgLapTimesByCompound.get(sortedCompounds.get(0));
+
+        // Print results with delta
+        for (String compound : sortedCompounds) {
+            double avgTime = avgLapTimesByCompound.get(compound);
+            double delta = avgTime - fastestAvg;
+            System.out.printf("Compound: %s | Total laps: %d | Avg lap time: %.3f s | Delta per lap: +%.3f s%n",
+                    compound, totalLapsByCompound.get(compound), avgTime, delta);
         }
     }
 
